@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="container">
+      <main>
+        <div>
+      <form action="index.html" method="post">
+       <h2>Step 1: Your details</h2>
+       <fieldset>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="First and last name">
+        </fieldset>
+        <fieldset>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" placeholder="example@domain.com">
+        </fieldset>
+        <fieldset>
+          <label for="phone">Phone:</label>
+          <input type="text" id="phone" name="phone" placeholder="Eg. +447500000000">
+        </fieldset>
+          <h2>Step 2: Delivery address</h2>
+          <fieldset>
+          <label for="address">Address</label>
+          <textarea id="address" name="address"></textarea>
+        </fieldset>
+        <fieldset>
+          <label for="post_code">Post code</label>
+          <input type="number" id="post_code" name="post_code">
+        </fieldset>
+        <fieldset>
+          <label for="country">Country</label>
+          <input type="text" id="country" name="country">
+        </fieldset>
+          <h2>Step 3: Card details</h2>
+          <fieldset>
+            <label>Card type</label>
+            <input type="radio" id="visa" value="visa" name="visa"><label for="visa" class="light">VISA</label>
+            <input type="radio" id="amex" value="amex" name="amex"><label for="amex" class="light">AmEx</label>
+            <input type="radio" id="mastercard" value="mastercard" name="mastercard"><label for="under_13" class="light">Mastercard</label>
+          </fieldset>
+           <fieldset> 
+            <label for="card_number">Card number</label>
+            <input type="text" id="card_number" name="card_number">
+          </fieldset> 
+            <fieldset>
+            <label for="security_code">Security code</label>
+            <input type="number" id="security_code" name="security_code">
+          </fieldset>
+            <fieldset>
+            <label for="name_on_card">Name on card</label>
+            <input type="text" id="name_on_card" name="nameoncard" placeholder="Exact name as on the card">
+          </fieldset>
+            
+      <button type="submit">BUY IT!</button>
+        
+        </form>
+        </div>
+      </main>
+    </body>
+</html>
+

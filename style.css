@@ -1,0 +1,111 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+ }
+ 
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: #2a3a06;
+   }
+
+   fieldset {
+    background-color: #b8df85;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.55em;
+    padding-bottom: 0.15em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2p;
+    border-radius: 8px;
+    border-color: rgba(255, 255, 255, 0.768);
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: black;
+    }
+  
+
+    .container {
+      display: grid;
+      margin-top: 50px;
+      grid-template-columns: 60% 1fr;
+
+    }
+
+
+ form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #84b413;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+    textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #FFF;
+    color: #FFF;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+  
+  input[type="radio"]{
+    margin: 0 4px 8px 0;
+ }
+  
+  select {
+    padding: 6px;
+   
+  }
+  
+  button {
+    padding: 10px 10px 10px 10px;
+    color: #FFF;
+    background-color:  #2a3a06;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 30px;
+    width: 40%;
+    border: none;
+    float: center;
+  }
+  
+   
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+  
+
+   
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }
+  
